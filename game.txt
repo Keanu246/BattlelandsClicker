@@ -65,8 +65,24 @@ Buildings
    
     *sniper|snipers
         name:Sniper|Snipers
-        desc:Has good range, a scope, and good damage.<//><b>Effect:</b><.>Produces 5 bucks every second.
+        desc:Has good range, a scope, and good damage.<//><b>Effect:</b><.>Produces 5 battle bucks every second.
         cost:100 bucks
         on tick:yield 5 bucks
         on tick:yield 15 damage
+        unlocked
+        
+    *smg|smgs
+        name:SMG|SMGS
+        desc:Machine gun weapon that shoots bullets fast.<//><b>Effect:</b><.>Produces 25 battle bucks every second<.>Does 25 damage
+        cost:1000 bucks
+        on tick:yield 25 bucks
+        on tick:yield 12 damage
+        unlocked
+   
+    *kar99|kar99s
+        name:Kar99|Kar99s
+        desc:Like the Sniper, it has a scope, longer range and heavy damage.<//><b>Effect:</b><.>Produces 75 bucks every second.
+        cost:20000 bucks
+        on tick:yield 75 bucks
+        on tick:yield 25 damage
         unlocked
