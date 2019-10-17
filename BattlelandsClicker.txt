@@ -15,3 +15,29 @@ Settings
  
 Layout
     use default
+
+Buttons
+    *buckButton
+        name:Make a Battle Buck
+        desc:Click this money to get money!
+        on click:anim icon wobble
+        on click:yield 1 bucks
+        icon:https://apktada.com/storage/images/com/milkdroplet/packinprofit/com.milkdroplet.packinprofit_1.png
+        no text
+        class:bigButton hasFlares
+        icon class:shadowed
+        tooltip origin:bottom
+        tooltip class:red
+ 
+Resources
+    *bucks|bucks
+        name:Battle Buck|Battle Bucks
+        desc:Your v-bucks. Use them for weapons and upgrades!
+        icon:
+        class:noBackground
+        show earned
+        
+Buildings
+    *TEMPLATE
+        on click:anim glow
+        show max
