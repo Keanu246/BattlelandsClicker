@@ -1,0 +1,17 @@
+Let's make a game!
+    name:Fortnite Clicker
+    by:Keanu246
+    desc:The game with guns, stuff and more.
+    created:12/10/2019
+    updated:14/10/2019
+    version:1
+ 
+Settings
+    background:stuff/meadow.jpg
+    building cost increase:115%
+    building cost refund:50%
+    spritesheet:icons, 48 by 48
+    stylesheet:stuff/bigBlue.css
+ 
+Layout
+    use default
