@@ -81,8 +81,8 @@ Buildings
    
     *kar99|kar99s
         name:Kar99|Kar99s
-        desc:Like the Sniper, it has a scope, longer range and heavy damage.<//><b>Effect:</b><.>Produces 75 battle bucks every second.<.>Does 25 damage
+        desc:Like the Sniper, it has a scope, longer range and heavy damage.<//><b>Effect:</b><.>Produces 100 battle bucks every second.<.>Does 25 damage
         cost:20000 bucks
-        on tick:yield 75 bucks
+        on tick:yield 100 bucks
         on tick:yield 25 damage
         unlocked
