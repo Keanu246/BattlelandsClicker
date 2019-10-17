@@ -44,7 +44,31 @@ Resources
         class:noBackground
         show earned
         
+    *damage|damage
+        name:Damage|Damage
+        desc:From all guns, rifles, zookas and more. The damage is from all weapons.
+        class:noBackground
+        show earned
+        
 Buildings
     *TEMPLATE
         on click:anim glow
         show max
+        
+    *peacemaker|peacemakers
+        name:Peacemaker|Peacemakers
+        desc:Basic weapon that does good damage and power.<//><b>Effect:</b><.>Produces 1 battle buck every second<.>Does 7 damage
+        cost:10 bucks
+        on tick:yield 1 bucks
+        on tick:yield 7 damage
+        if(chance(25%)) yield 14 damage
+        unlocked
+   
+    *sniper|snipera
+        name:Sniper|Sniper
+        desc:Has good range, a scope, and good damage.<//><b>Effect:</b><.>Produces 5 bucks every second.
+        cost:100 bucks
+        on tick:yield 5 bucks
+        on tick:yield 15 damage
+        if(chance(25%)) yield 30 damage
+        unlocked
