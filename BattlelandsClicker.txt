@@ -64,8 +64,8 @@ Buildings
         if(chance(25%)) yield 14 damage
         unlocked
    
-    *sniper|snipera
-        name:Sniper|Sniper
+    *sniper|snipers
+        name:Sniper|Snipers
         desc:Has good range, a scope, and good damage.<//><b>Effect:</b><.>Produces 5 bucks every second.
         cost:100 bucks
         on tick:yield 5 bucks
