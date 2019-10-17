@@ -33,7 +33,14 @@ Resources
     *bucks|bucks
         name:Battle Buck|Battle Bucks
         desc:Your v-bucks. Use them for weapons and upgrades!
-        icon:
+        icon:https://www.seekpng.com/png/full/224-2244105_v-bucks-icon-v-bucks-logo-png.png
+        class:noBackground
+        show earned
+  
+    *bullets|bullets
+        name:Bullet|Bullets
+        desc:Used by guns. They are ammo to reload weapons.
+        icon:https://www.pennstateind.com/mm5/graphics/00000001/PK50BPX.jpg
         class:noBackground
         show earned
         
