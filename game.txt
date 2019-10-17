@@ -86,3 +86,19 @@ Buildings
         on tick:yield 100 bucks
         on tick:yield 25 damage
         unlocked
+
+    *doublebarrel|doublebarrels
+        name:Double Barrel|Double Barrels
+        desc:Shoots 2 with more critical chance.<//><b>Effect:</b><.>Produces 400 battle bucks every second.<.>Does 18 damage
+        cost:150000 bucks
+        on tick:yield 400 bucks
+        on tick:yield 18 damage
+        unlocked
+ 
+     *assaultrifle|assaultrifles
+        name:Assault Rifle|Assault Rifles
+        desc:Better weapon, that shoots bullets defeating most enemies.<//><b>Effect:</b><.>Produces 1500 battle bucks every second.<.>Does 22 damage
+        cost:1000000 bucks
+        on tick:yield 1500 bucks
+        on tick:yield 22 damage
+        unlocked
