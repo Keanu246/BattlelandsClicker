@@ -61,7 +61,6 @@ Buildings
         cost:10 bucks
         on tick:yield 1 bucks
         on tick:yield 7 damage
-        if(chance(25%)) yield 14 damage
         unlocked
    
     *sniper|snipers
@@ -70,5 +69,4 @@ Buildings
         cost:100 bucks
         on tick:yield 5 bucks
         on tick:yield 15 damage
-        if(chance(25%)) yield 30 damage
         unlocked
